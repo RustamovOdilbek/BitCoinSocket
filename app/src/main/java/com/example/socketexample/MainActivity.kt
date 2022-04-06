@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loading(){
-
+//lkdjawhdcmwadbakbef
     }
 
     private fun setupUI() {
