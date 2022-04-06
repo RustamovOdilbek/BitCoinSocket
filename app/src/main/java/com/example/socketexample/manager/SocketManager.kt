@@ -15,7 +15,7 @@ class SocketManager {
     lateinit var socketListener: SocketListener
     private var gson = Gson()
 
-    fun connectToSocket(){
+    fun connectToSocket(s: String) {
         val client = OkHttpClient()
 
         val request: Request = Request.Builder().url("wss://ws.bitstamp.net").build()

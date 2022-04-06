@@ -7,33 +7,9 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/connect"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp"
-        android:text="Connect"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-
-        <Button
-            android:layout_weight="1"
-            android:id="@+id/btn_btc"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:text="Bitcoin"/>
-
-        <Button
-            android:layout_weight="1"
-            android:id="@+id/btn_usd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="2dp"
-            android:text="Usd"/>
-    </LinearLayout>
+   <com.github.mikephil.charting.charts.LineChart
+       android:id="@+id/line_chat"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginHorizontal="15dp"/>
 </LinearLayout>

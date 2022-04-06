@@ -47,4 +47,6 @@ dependencies {
     //Spcket
     implementation 'com.squareup.okhttp3:okhttp:3.14.9'
     implementation 'com.google.code.gson:gson:2.9.0'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 }
