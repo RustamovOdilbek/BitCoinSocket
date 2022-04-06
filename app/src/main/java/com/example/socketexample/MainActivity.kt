@@ -41,6 +41,9 @@ class MainActivity : AppCompatActivity() {
         setupUI()
 
     }
+    private fun show(){
+        Toast.makeText(this, "salom", Toast.LENGTH_SHORT).show()
+    }
 
     private fun setupUI() {
         socketManager.connectToSocket("live_trades_btcusd")
