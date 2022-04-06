@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     private fun show(){
-        Toast.makeText(this, "salom", Toast.LENGTH_SHORT).show()
+
     }
 
     private fun setupUI() {
