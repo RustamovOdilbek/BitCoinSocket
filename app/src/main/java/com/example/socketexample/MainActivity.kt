@@ -42,7 +42,6 @@ class MainActivity : AppCompatActivity() {
 
     }
     private fun show(){
-//jhkdsjkdsfjflkdsjlkds
     }
 
     private fun setupUI() {
