@@ -25,6 +25,7 @@ import kotlin.collections.ArrayList
 
 class MainActivity : AppCompatActivity() {
 
+    //just
     private lateinit var binding: ActivityMainBinding
     private lateinit var socketManager: SocketManager
     private var lineValues = ArrayList<Entry>()
