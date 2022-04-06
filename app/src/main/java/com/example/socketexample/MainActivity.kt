@@ -45,6 +45,10 @@ class MainActivity : AppCompatActivity() {
     private fun show(){
     }
 
+    private fun loading(){
+
+    }
+
     private fun setupUI() {
         socketManager.connectToSocket("live_trades_btcusd")
         socketManager.socketListener(object : SocketListener {
